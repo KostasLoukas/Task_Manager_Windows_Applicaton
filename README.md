@@ -7,7 +7,7 @@ The aforementioned tasks can also be edited (updated) or simply viewed from the 
 The design of the program is very simplistic as the focus was given mostly to its functionality. It was created in Visual Studio 2019 using the Windows Forms framework.
 The executable, as well as the csv file are stored into the Task Management\bin\Debug folder.
 
-THe following pictures are for reference.
+The following pictures are for reference.
 
 Main Menu Window:
 ![mainmenu](https://github.com/user-attachments/assets/3517aa33-6449-42f3-9236-39ee2d1af7e2)
@@ -18,3 +18,4 @@ New Task Window:
 Update Task Window:
 ![updatetask](https://github.com/user-attachments/assets/664def73-e434-424f-b16b-01b2ad45d71c)
 
+WARNING! The program was not tested-out for all kinds of user-input or other errors; please exercise caution...
