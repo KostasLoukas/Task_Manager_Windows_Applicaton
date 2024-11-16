@@ -1,0 +1,15 @@
+C:\Users\kosta\Desktop\Task Management\bin\Debug\Task Management.exe.config
+C:\Users\kosta\Desktop\Task Management\bin\Debug\Task Management.exe
+C:\Users\kosta\Desktop\Task Management\bin\Debug\Task Management.pdb
+C:\Users\kosta\Desktop\Task Management\obj\Debug\Task Management.csproj.AssemblyReference.cache
+C:\Users\kosta\Desktop\Task Management\obj\Debug\Task_Management.Properties.Resources.resources
+C:\Users\kosta\Desktop\Task Management\obj\Debug\Task Management.csproj.GenerateResource.cache
+C:\Users\kosta\Desktop\Task Management\obj\Debug\Task Management.csproj.CoreCompileInputs.cache
+C:\Users\kosta\Desktop\Task Management\obj\Debug\Task Management.exe
+C:\Users\kosta\Desktop\Task Management\obj\Debug\Task Management.pdb
+C:\Users\kosta\Desktop\Task Management\obj\Debug\Task_Management.MainMenu.resources
+C:\Users\kosta\Desktop\Task Management\obj\Debug\Task_Management.NewTaskForm.resources
+C:\Users\kosta\Desktop\Task Management\obj\Debug\Task_Management.UpdateTaskForm.resources
+C:\Users\kosta\Desktop\Task Management\obj\Debug\Task_Management.EditTaskForm.resources
+C:\Users\kosta\Desktop\Task Management\obj\Debug\Task_Management.ViewTasksForm.resources
+C:\Users\kosta\Desktop\Task Management\obj\Debug\Task_Management.EditTaskStatusForm.resources
