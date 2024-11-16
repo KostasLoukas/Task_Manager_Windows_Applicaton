@@ -20,12 +20,19 @@ namespace Task_Management
 
         private void EditTaskForm_Load(object sender, EventArgs e)
         {
-            //Fetch each part of the task and store them in a temporary table to show them in the edit window for reference
-            texts = Tasks.tasks[UpdateTaskForm.taskListBoxIndex].Split(Tasks.stringDelimiter);
-            EditTaskTitleTextBox.Text = texts[0];
-            EditTaskDescriptionTextBox.Text = texts[1];
-            EditPrioritiesDropDown.SelectedIndex = Int32.Parse(texts[2]) - 1;
-            EditTaskDeadlineCalendar.SelectionRange.Start = DateTime.Parse(texts[3]);
+            try
+            {
+                //Fetch each part of the task and store them in a temporary table to show them in the edit window for reference
+                texts = Tasks.tasks[UpdateTaskForm.taskListBoxIndex].Split(Tasks.stringDelimiter);
+                EditTaskTitleTextBox.Text = texts[0];
+                EditTaskDescriptionTextBox.Text = texts[1];
+                EditPrioritiesDropDown.SelectedIndex = Int32.Parse(texts[2]) - 1;
+                EditTaskDeadlineCalendar.SelectionRange.Start = DateTime.Parse(texts[3]);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("No Tasks selected!");
+            }
         }
 
         private void EditTaskTitleTextBox_TextChanged(object sender, EventArgs e)

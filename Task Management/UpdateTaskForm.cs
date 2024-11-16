@@ -12,7 +12,7 @@ namespace Task_Management
 {
     public partial class UpdateTaskForm : Form
     {
-        public static int taskListBoxIndex;
+        public static int taskListBoxIndex = -1;
         public UpdateTaskForm()
         {
             InitializeComponent();

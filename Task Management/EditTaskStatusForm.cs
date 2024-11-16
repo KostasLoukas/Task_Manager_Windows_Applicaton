@@ -20,8 +20,15 @@ namespace Task_Management
 
         private void EditTaskStatusForm_Load(object sender, EventArgs e)
         {
-            //Fetch each part of the task and store them in a temporary table to show them in the edit window for reference
-            texts = Tasks.tasks[UpdateTaskForm.taskListBoxIndex].Split(Tasks.stringDelimiter);
+            try
+            {
+                //Fetch each part of the task and store them in a temporary table to show them in the edit window for reference
+                texts = Tasks.tasks[UpdateTaskForm.taskListBoxIndex].Split(Tasks.stringDelimiter);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("No Tasks selected!");
+            }
         }
 
         private void UpdateTaskStatusButton2_Click(object sender, EventArgs e)
